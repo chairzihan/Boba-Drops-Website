@@ -1,28 +1,41 @@
 body{
-    background-color: #c1c1c1;
+    background-color: #ffffff;
     font-family: 'Times New Roman', Times, serif, sans-serif;
-    margin: 0;
-    padding: 20px;
+    text-align: center;
+
 }
 
 #bobaContainer{
 
-    display: flex;
-    flex-wrap: wrap;
+    
     justify-content: center;
     gap: 20px;
+    text-align: center;
 }
 
 #bobaTitle{
-    text-align: center;
+    
     font-size: 2em;
     color: #333;
-    margin-bottom: 20px;
+    
 }
 
 #instructions{
     text-align: center;
     font-size: 1.2em;
     color: #555;
-    margin-top: 20px;
+    
+}
+
+#dropButton{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #1e13c1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
 }
